@@ -18,13 +18,24 @@ window.addEventListener("scroll", function () {
 // });
 
 // Auto typed
-var typed = new Typed(".auto-type", {
+var typed = new Typed(".auto-type-1", {
   // strings : ['UI/UX Design', 'Front End', 'Product Management'],
   strings: ["UI/UX Design", "Product Management"],
   typeSpeed: 150,
   backSpeed: 50,
   loop: true,
 });
+
+var typed = new Typed(".auto-type", {
+  // strings : ['UI/UX Design', 'Front End', 'Product Management'],
+  strings: ["Maintance", "Coming Soon"],
+  typeSpeed: 150,
+  backSpeed: 50,
+  loop: true,
+});
+
+
+
 
 // preload
 // onload = function () {
